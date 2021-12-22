@@ -1,5 +1,5 @@
 {
-  "name": "mycontract",
+  "name": "stakingcontract",
   "version": "1.0.0",
   "description": "truffle contract",
   "main": "index.js",
@@ -9,6 +9,10 @@
   "author": "sych",
   "license": "ISC",
   "dependencies": {
-    "@openzeppelin/contracts": "^4.4.1"
+    "@openzeppelin/contracts": "^4.4.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.0.0"
   }
 }
